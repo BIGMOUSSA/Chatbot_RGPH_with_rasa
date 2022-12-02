@@ -1,0 +1,84 @@
+version: "3.1"
+nlu:
+
+- intent: chitchat/salutation
+  examples: |
+    - salut
+    - cava
+    - comment vas-tu
+    - Bonjour
+    - Bonsoir
+    - hey
+    - toc toc
+
+- intent: chitchat/Au_revoir
+  examples: |
+    - à bientôt
+    - Merci
+    - Ciao Ciao
+    - bye
+
+- intent: faq/définition_rgph
+  examples: |
+    - C'est quoi le recensement
+    - Que signifie le RGPH
+    - Pourquoi fait-on le recensement
+
+- intent: faq/recrutement
+  examples: |
+    - Le recrutement des agents se fait comment
+    - Pourrais-je participer au recensement
+    - Quels sont les papiers à fournir pour participer au recencement
+
+- intent: faq/date_durée
+  examples: |
+    - Quand débute le recensement
+    - C'est pour combien de temps
+    - Quelle est la durée du recensement
+
+- intent: faq/slogan
+  examples: |
+    - Quel est le slogan du RGPH5
+    - C'est quoi le slogan du recensement
+
+- intent: faq/utilité_du_rgph
+  examples: |
+    - Quel est l'utilité de faire un recensement
+    - Un recensement ça sert à quoi
+
+- intent: faq/resultat_attendu
+  examples: |
+    - Qu'est-ce qui est attendu du recensement
+    - Quels résultats le recensement va fournir
+
+- intent: faq/apropos_ansd
+  examples: |
+    - C'est quoi l'ANSD
+    - Quelle est la mission de l'ANSD
+    - Que fait l'ANSD
+    - Que signigifie l'ANSD
+
+- intent: faq/loc_ansd
+  examples: |
+    - Où se trouve l'ANSD ?
+    - Comment se rendre à l'ANSD ?
+    - Quelle est l'adresse de l'ANSD ?
+
+- intent: faq/pilote_rgph
+  examples: |
+    - Qui pilote le RGPH?
+    - Quelle structure conduit le recensement ?
+    - Qui fait le recensement ?
+
+- intent: chitchat/bot
+  examples: |
+    - Qui est-tu?
+    - Comment tu t'appelles?
+    - Es-tu un robot
+
+    
+- intent: faq/internet_link
+  examples: |
+    - Quel est le site web de l'ansd
+    - Quel est le site web du RGPH
+ 
